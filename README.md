@@ -23,13 +23,13 @@ This Cisco Packet Tracer lab demonstrates comprehensive **Port Aggregation Proto
 ## 🖼️ Lab Screenshots
 
 ### Initial Topology (Image 1)
-![Topology Overview](image1)
+![Topology Overview](asset/switch1CLI.png)
 - Shows basic three-switch topology
 - Single PAgP Channel Group 2 (auto/desirable mode)
 - Configuration output visible in CLI panel
 
 ### Dual PAgP Configuration (Image 2)
-![Dual Channel Setup](image2)
+![Dual Channel Setup](asset/multilayer1.png)
 - Both switches configured with separate channel groups
 - Switch0: Channel Group 1 (desirable/auto)
 - Switch1: Channel Group 2 (auto/desirable)
@@ -37,18 +37,11 @@ This Cisco Packet Tracer lab demonstrates comprehensive **Port Aggregation Proto
 - Port-channel trunk mode enabled
 
 ### Channel Group 1 Configuration (Image 3)
-![Channel Group 1](image3)
+![Channel Group 1](asset/switch2cli.png)
 - Detailed configuration of PAgP Channel Group 1
 - Desirable mode on Switch0
 - Trunk port configuration
 - EtherChannel validation outputs
-
-### Final Configuration (Image 4)
-![Complete Setup](image4)
-- All port-channels operational
-- Trunk links established
-- Full configuration summary
-- Status verification completed
 
 ## ⚙️ Configuration Details
 
